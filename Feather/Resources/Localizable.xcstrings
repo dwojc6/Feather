@@ -324,6 +324,16 @@
         }
       }
     },
+    "%lld of %lld selected" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld of %2$lld selected"
+          }
+        }
+      }
+    },
     "%lld required system dylibs not shown." : {
       "comment" : "Number of macho load paths not listed for safety",
       "extractionState" : "manual",
@@ -3249,6 +3259,9 @@
         }
       }
     },
+    "Deselect All" : {
+
+    },
     "Developer" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -4681,6 +4694,12 @@
           }
         }
       }
+    },
+    "Extract Dylibs" : {
+
+    },
+    "Extract from %@" : {
+
     },
     "Failed to download, check your internet connection and try again." : {
       "extractionState" : "manual",
@@ -6965,17 +6984,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "签名后安装"
-          }
-        }
-      }
-    },
-    "Install After Signing" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cài đặt sau khi ký"
           }
         }
       }
@@ -11590,6 +11598,9 @@
         }
       }
     },
+    "Select All" : {
+
+    },
     "Select Alternative Icon" : {
       "comment" : "Select custom alternative app icon",
       "extractionState" : "manual",
@@ -11649,6 +11660,9 @@
           }
         }
       }
+    },
+    "Select Dylibs to Keep" : {
+
     },
     "Select entitlements file" : {
       "comment" : "Select custom entitlements for the app",
